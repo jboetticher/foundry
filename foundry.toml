@@ -5,3 +5,9 @@ libs = ['lib']
 solc_version = '0.8.17'
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+[rpc_endpoints]
+moonbase = "https://rpc.api.moonbase.moonbeam.network"
+
+[etherscan]
+moonbase = { key = "${MOONSCAN_API_KEY}" }

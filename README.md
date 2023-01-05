@@ -13,3 +13,8 @@ Created a remappings override to ensure that the openzeppelin dependency works. 
 forge remappings > remappings.txt
 ```
 
+You can write tests & test harnesses
+```
+forge test
+```
+

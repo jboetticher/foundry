@@ -18,3 +18,18 @@ You can write tests & test harnesses
 forge test
 ```
 
+Added stuff to `.env`, and added them as environment variables
+```
+source .env
+```
+
+Deploy & verify (verify doesn't work)
+```
+forge script script/Container.s.sol:ContainerDeployScript --broadcast --verify -vvvv --rpc-url moonbase
+```
+
+But it's not good to use the private key, so use a wallet option instead:  
+https://book.getfoundry.sh/reference/forge/forge-script#wallet-options---raw
+
+
+

@@ -5,7 +5,7 @@ import "forge-std/Script.sol";
 import {MyToken} from "../src/MyToken.sol";
 import {Container} from "../src/Container.sol";
 
-contract CounterScript is Script {
+contract ContainerDeployScript is Script {
     function setUp() public {}
 
     function run() public {

@@ -35,8 +35,6 @@ contract ContainerTest is Test {
         assertFalse(harness.exposed_isOverflowing(CAPACITY));
         assertFalse(harness.exposed_isOverflowing(0));
     }
-
-
 }
 
 contract ContainerHarness is Container {
